@@ -1,14 +1,56 @@
 body{ 
+	font-family: 'Open Sans', sans-serif;
 }
 
 #content{}
-#nav-container{}
-#top-nav{}
+#nav-container{
+	background: #282828;
+}
 
+#top-nav{
+	width: 300px;
+	margin:0 auto;
+	height: 50px;
+	
+}
+#top-nav ul{
+	
+}
+
+#top-nav ul li{
+	display: block;
+	float: left;
+	
+}
+#top-nav ul li a{
+	font-weight: 600;
+	color:white;
+	font-size: 16px;
+	line-height: 50px;
+	text-decoration: none;
+	display: block;
+	width: 75px;
+	height: 50px;
+	text-align: center;
+
+}
+
+#top-nav ul li a:link{
+
+}
+#top-nav ul li a:visited{
+
+}
+#top-nav ul li a:hover{
+	background: darkgreen;
+}
+#top-nav ul li a:active{
+
+}
 
 #intro{}
 #about{}
-
+.clear{clear:both;}
 .btn{ 
 padding:20px;
 color:#fff;
@@ -62,6 +104,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 	width: 100px;
 	height: 100px;
 	margin:0 auto;
+
 }
 
 #portfolio .box{
@@ -70,4 +113,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 	width: 100px;
 	height: 100px;
 	margin:0 auto;
+}
+
+.clearfix:after { 
+  content: "."; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden; 
+}
+.clearfix { 
+  display: inline-block;  
+}
+* html .clearfix {  
+  height: 1%;  
+} /* Hides from IE-mac \*/
+.clearfix {  
+  display: block;  
 }
