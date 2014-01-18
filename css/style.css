@@ -2,15 +2,43 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
+.test{
+	
+}
+
+h1{
+	font-size: 3.25em;
+	margin-top:0 0 .75em 0;
+}
+
+h2{
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: ;
+}
+
+p{
+	margin-bottom: 15px;
+}
+strong{
+	font-weight: 600
+}
+
+#id:hover
+#id:first-child
+
 #content{}
 #nav-container{
 	background: #282828;
+	position: fixed;
+	width:100%;
 }
 
+/*TOP NAV*/
 #top-nav{
-	width: 300px;
+	width: 390px;
 	margin:0 auto;
-	height: 50px;
+
 	
 }
 #top-nav ul{
@@ -23,40 +51,91 @@ body{
 	
 }
 #top-nav ul li a{
-	font-weight: 600;
+	border-radius: 5px;
 	color:white;
-	font-size: 16px;
-	line-height: 50px;
-	text-decoration: none;
 	display: block;
-	width: 75px;
-	height: 50px;
+	font-size: 16px;
+	font-weight: 600;
+	height: 35px;
+	line-height: 35px;
+	margin: 8px 6px;
+	padding: 0 5px;
 	text-align: center;
+	text-decoration: none;
+	width: 75px;
+
+
 
 }
 
 #top-nav ul li a:link{
 
 }
+
 #top-nav ul li a:visited{
 
 }
+
 #top-nav ul li a:hover{
-	background: darkgreen;
+	background:#333;
 }
+
 #top-nav ul li a:active{
 
 }
 
-#intro{}
-#about{}
+/*INTRO*/
+#intro{
+	padding-top: 150px;
+
+}
+#intro p{
+	margin-bottom: 30px;
+	line-height: 35px;
+	font-size: 20px;
+	color:#666666;
+
+}
+
+#intro p a{
+	color:#333;
+
+}
+
+.portrait-container img{
+	border-radius: 150px
+	
+}
+
+/*Work*/
+#work{
+	background: #fafafa url("img/bg.png");
+	padding-bottom: 70px;
+	padding
+}
+#work h2{
+	text-align: center;
+	font-size: 24px;
+}
+#work .box{
+	background: blue;
+	width: 100px;
+	height: 100px;
+	margin:0 auto;
+}
+
+
 .clear{clear:both;}
+
+#about{}
+
 .btn{ 
-padding:20px;
-color:#fff;
-text-decoration: none;
-text-shadow: 1px 1px 3px #888;
-font-size: 1.2em;
+	display: inline-block;
+	padding:20px;
+	color:#fff;
+	text-decoration: none;
+	text-shadow: 1px 1px 3px #888;
+	font-size: 1.2em;
 
 
 /*Rounded Corners */
@@ -115,6 +194,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 	margin:0 auto;
 }
 
+/*Helpers*/
+.left{
+        float: left;
+}
+
 .clearfix:after { 
   content: "."; 
   display: block; 
@@ -130,4 +214,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 } /* Hides from IE-mac \*/
 .clearfix {  
   display: block;  
+}
+
+/*Helpers*/
+
+.center{
+	text-align:center;
 }
